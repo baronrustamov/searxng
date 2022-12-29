@@ -89,8 +89,8 @@ extlinks = {}
 
 # upstream links
 extlinks['wiki'] = ('https://github.com/searxng/searxng/wiki/%s', ' %s')
-extlinks['pull'] = ('https://github.com/searxng/searxng/pull/%s', 'PR %s')
-extlinks['pull-searx'] = ('https://github.com/searx/searx/pull/%s', 'PR %s')
+extlinks['pull'] = ('https://github.com/baronrustamov/searxng/pull/%s', 'PR %s')
+extlinks['pull-searx'] = ('https://github.com/baronrustamov/searx/pull/%s', 'PR %s')
 
 # links to custom brand
 extlinks['origin'] = (GIT_URL + '/blob/' + GIT_BRANCH + '/%s', 'git://%s')
