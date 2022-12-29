@@ -2,21 +2,22 @@ general:
   # Debug mode, only for development
   debug: false
   # displayed name
-  instance_name: "SearXNG"
+  instance_name: "PortalSearch"
   # For example: https://example.com/privacy
   privacypolicy_url: false
   # use true to use your own donation page written in searx/info/en/donate.md
   # use false to disable the donation link
-  donation_url: https://docs.searxng.org/donate.html
+  donation_url: false 
+  # https://docs.searxng.org/donate.html
   # mailto:contact@example.com
   contact_url: false
   # record stats
   enable_metrics: true
 
 brand:
-  new_issue_url: https://github.com/searxng/searxng/issues/new
-  docs_url: https://docs.searxng.org/
-  public_instances: https://searx.space
+  new_issue_url: https://github.com/baronrustamov/searxng/issues/new
+  docs_url: https://docs.portalmetaverse.org/
+  public_instances: https://portalmetaverse.space
   wiki_url: https://github.com/searxng/searxng/wiki
   issue_url: https://github.com/searxng/searxng/issues
 
