@@ -1,0 +1,1 @@
+sudo -H ./utils/searxng.sh install all
