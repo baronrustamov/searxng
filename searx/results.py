@@ -14,6 +14,11 @@ CONTENT_LEN_IGNORED_CHARS_REGEX = re.compile(r'[,;:!?\./\\\\ ()-_]', re.M | re.U
 WHITESPACE_REGEX = re.compile('( |\t|\n)+', re.M | re.U)
 
 
+
+def gptres(query):
+    return
+
+
 # return the meaningful length of the content for a result
 def result_content_len(content):
     if isinstance(content, str):
